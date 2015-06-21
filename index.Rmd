@@ -4,3 +4,55 @@ author: "Nidhi Shrivastava"
 date: "Saturday, June 20, 2015"
 output: html_document
 ---
+
+<br/>
+
+# Data Developing Products
+
+## Peer Assesment Project
+
+<br/>
+
+##About the project
+
+The libraries used in the project are:
+
+```{r}
+
+library(shiny)
+
+# For Plotting 
+library(ggplot2)
+library(rCharts)
+library(ggvis)
+
+# Data processing libraries
+library(data.table)
+library(reshape2)
+library(dplyr)
+
+# Required by includeMarkdown
+library(markdown)
+
+# It has to loaded to plot ggplot maps on shinyapps.io
+library(mapproj)
+library(maps)
+```
+
+<br/>
+
+This application is based on the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database.
+
+You can adjust date range and event types using control panel located on the left side. Filtered dataset can be downloaded using data tab.
+
+<br/>
+
+The different plots are:
+
+- Number of events by Year
+- Population Impact by Year
+- Economic Impact by Year
+
+<br/>
+
+
